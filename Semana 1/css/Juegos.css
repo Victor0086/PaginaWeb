@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    transform: scale(1.2); 
+    color: #555; 
+}
+
+
+
+
+.catalogo {
+    padding: 20px;
+}
+
+.categoria {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.columna {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    transition: transform 0.2s ease;
+}
+
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.columna h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.precio {
+
+    font-size: 50px;
+    color: black;
+}
+
+.columna p {
+    font-size: 20px;
+    color: #666;
+}
+
+.juegos img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+

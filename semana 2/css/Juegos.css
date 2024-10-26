@@ -1,0 +1,72 @@
+
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    display: inline-block; 
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.categoria {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.columna {
+    background-color: brown;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    transition: transform 0.2s ease;
+}
+
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.columna p {
+    font-size: 20px;
+    color: white;
+}
+
+.juegos img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contenedor-icono svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Tamaño de las imágenes */
+
+.carousel-inner .carousel-item img {
+    width: 100%; /* Ancho completo */
+    height: 80%; /* Altura completa */
+    object-fit: contain; 
+    display: block;
+    margin: auto; 
+}
+
